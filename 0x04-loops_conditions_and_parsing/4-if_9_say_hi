@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
+
 # dislay "Best School" 10 times
+
 # on the 9th iteration display "Hi" before "Best School"
 
 count=0
 
-while [ $couont -lt 10 ]
+while [ $count -lt 10 ]
 do 
 	if[ $count -eq 9]
 	then
