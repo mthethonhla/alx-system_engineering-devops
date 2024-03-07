@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
 
-# dislay "Best School" 10 times using a while loop.
+# Dislay "Best School" 10 times using a while loop.
 
-# on the 9th iteration, display "Hi" before "Best School".
+# On the 9th iteration, display "Hi" before "Best School".
 
-cnt=0
+count=0
 
-while [ $cnt -lt 10 ]
+while [ $count -lt 10 ]
 do 
-	if[ $cnt -eq 9]
+	if[ $count -eq 9]
 	then
 		echo "Hi"
 	fi
 	echo "Best School"
-	(( cnt++ ))
+	(( count++ ))
 done
