@@ -1,4 +1,4 @@
-#Using Puppet, install flask from pip3.
+#Using Puppet, install flask from pip3.1
 
 package { 'python3.8':
   ensure   => '3.8.10',
